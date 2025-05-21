@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Images</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Analyse</a>
+
+        </nav>
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="seacrh....">
+            <button type="Submit"><i class='bx bx-search'></i></button>
+
+        </form>
+
+    </header>
+    <div class="background1">
+        <div class="container">
+            <div class="content">
+                <h2 class="logo"><i class='bx bxl-firebase'></i>Apeda</h2>
+                <div class="text-sci">
+                    <h2>Welcome!<br><span>TO Our Website</span></h2>
+                    <p>
+                        Here,Upload the images
+                        of vegetables and pulses..
+                    </p>
+                    <div class="social-icons">
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="logreg-box">
+                <div class="form-box login">
+                    <form action="#">
+                        <h2 class="bounce-text">Upload Images...</h2>
+
+                        <div class="input-box">
+                            <span class="icons"><i class='bx bx-cloud-upload'></i></span>
+                            <input type="file" id="fileInput" required>
+                            <label>Choose File</label>
+                        </div>
+
+                        <!-- Add these elements for displaying the file name and image preview -->
+                        <div id="fileName" style="color: black; font-weight: bold;"></div>
+                        <img id="imagePreview" src="" alt="Image Preview"
+                            style="max-width: 10%; display: none; margin-top: 10px;" />
+
+                        <button type="submit" class="btn" onclick="handleSubmit()">Submit</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- result page -->
+    <div class="background2">
+        <div class="container2">
+            <div class="content2">
+                <div class="result-section" id="resultSection">
+                    <div id="priceBlock" class="result-block"></div>
+                    <div id="benefitsBlock" class="result-block"></div>
+                    <div id="weatherBlock" class="result-block"></div>
+                </div>
+            </div>
+            <!-- tq -->
+            <div class="thanks">
+
+
+                <p>We truly appreciate you taking the time to explore our website Your.<br> support means the world to
+                    us,and we're here to make, sure you.<br> have the best
+                    experience possible, If you have any<br> feedback or suggestions, feel free to reach out—your<br>
+                    input helps us grow and improve.
+
+                    Thanks again,<br> and we hope to see you back soon!
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

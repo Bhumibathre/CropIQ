@@ -7,7 +7,7 @@
 /* ..........navbar......... */
 .header{ 
     position: fixed;
-    top: 0;
+    top: 0; 
     left: 0;
     width: 100%;
     padding: 25px 12.5%;

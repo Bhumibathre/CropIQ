@@ -12,7 +12,7 @@
     width: 100%; 
     padding: 25px 12.5%;
     background-color: transparent; 
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     z-index: 100;
